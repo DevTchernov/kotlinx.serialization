@@ -1,7 +1,7 @@
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin on the JVM.
-    id("org.jetbrains.kotlin.jvm") version "1.3.20"
-    id("kotlinx-serialization") version "1.3.20"
+    id("org.jetbrains.kotlin.jvm") version "whatever" // ../settings.gradle overrides plugin resolution rules
+    id("kotlinx-serialization")
 
     // Apply the application plugin to add support for building a CLI application.
     application
